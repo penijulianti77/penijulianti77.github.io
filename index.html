@@ -1,56 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <title>Latihan Bootstrap</title>
-    </head>
-    <body>
-        <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">My Blog</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="profile.html">Profile</a>
-                  </li>
-                </ul>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>My Portofolio | Peni Julianti</title>
+  </head>
+  <body id="home">
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: rgb(0, 134, 139)">
+        <div class="container">
+        <a class="navbar-brand" href="#">PENI JULIANTI</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certificate">Certificate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Jumbotron start-->
+    <section class="jumbotron text-center">
+      <img src="images/penii.jpg" alt="Peni Julianti" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Peni Julianti</h1>
+      <p class="lead">Mahasiswa | S1-Sistem Informasi</p>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,32L40,69.3C80,107,160,181,240,197.3C320,213,400,171,480,144C560,117,640,107,720,117.3C800,128,880,160,960,165.3C1040,171,1120,149,1200,138.7C1280,128,1360,128,1400,128L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Jumbotron end -->
+
+    <!-- About start -->
+    <section id="about"></section>
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>About Me</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center fs-5 text-right">
+        <div class="col-md-4">
+          <p>Peni Julianti, lahir di Banten pada tanggal 22 Juli 2004. Saya merupakan anak kedua dari 3 orang bersaudara. Saat ini saya sedang menempuh pendidikan S1-Sistem Informasi di Institut Digital Ekonomi LPKIA. Saya memiliki minat dalam bidang Business Analyst.</p>
+        </div>
+        <div class="col-md-4">
+          <p>Saya memiliki banyak pengalaman organisasi, dan saat ini saya adalah seorang staff kementrian dalam negeri (MENDAGRI) di Badan Eksekutif Mahasiswa (BEM). Saya memiliki beberapa sertifikasi Internasional, diantaranya yaitu Oracle Academy Java Programming dan Microsoft Office Specialist.</p>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,32L48,53.3C96,75,192,117,288,138.7C384,160,480,160,576,133.3C672,107,768,53,864,64C960,75,1056,149,1152,154.7C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <!-- About end -->
+
+    <!-- Certificate start -->
+    <section id="certificate">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>My Certificate</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="certificate/1.jpg" class="card-img-top" alt="Certificate 1" />
+              <div class="card-body">
+                <p class="card-text">Sertifikat Microsoft Office Specialist yang saya dapatkan pada bulan Juni 2024 dengan skor yang memuaskan.</p>
               </div>
             </div>
-          </nav>
-        <!-- Navbar End -->
-
-        <!-- Carrousel Start -->
-        <div id="carouselExample" class="carousel slide">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="images/1.jpg" class="d-block w-100" alt="Image Iqbaal 1">
-            </div>
-            <div class="carousel-item">
-              <img src="images/2.jpg" class="d-block w-100" alt="Image Iqbaal 2">
-            </div>
-            <div class="carousel-item">
-              <img src="images/3.jpg" class="d-block w-100" alt="Image Iqbaal 3">
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="certificate/2.jpg" class="card-img-top" alt="Certificate 2" />
+              <div class="card-body">
+                <p class="card-text">PIN Microsoft Office Specialyst.</p>
+              </div>
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="certificate/3.jpg" class="card-img-top" alt="Certificate 3" />
+              <div class="card-body">
+                <p class="card-text">Sertifikat Java Programming yang diselenggarakan oleh Oracle Academy yang saya dapatkan pada tanggal 16 Juli 2004.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Carrousel End -->
-    </body>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,32L40,64C80,96,160,160,240,160C320,160,400,96,480,90.7C560,85,640,139,720,170.7C800,203,880,213,960,186.7C1040,160,1120,96,1200,90.7C1280,85,1360,139,1400,165.3L1440,192L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
+    </section>
+    <!-- Certificate end -->
+
+    <!-- Contact start -->
+     <section id="contact"> 
+        <div class="container">
+            <div class="row text-center mb-3">
+            <div class="col">
+                <h2>Contact Me</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Nama Lengkap</label>
+                      <input type="text" class="form-control" id="name" aria-describedby="name">
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" aria-describedby="emailp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Pesan" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="pesan" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Kirim</button>
+                  </form>
+            </div>
+        </div>
+    <div>
+   
+    </section>
+    <!-- Contact end -->
+
+    <!-- Footer start-->
+     <footer class="bg-primary text-white text-center pb-5">
+        <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/penn.niii/" class="text-white fw-bold">Peni Julianti</a></p>
+     </footer>
+    <!-- Footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
